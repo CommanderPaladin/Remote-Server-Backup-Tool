@@ -36,13 +36,11 @@ This script facilitates the backup and synchronization of data from a remote ser
 
 ### Example Commands
 
-Command Example: python3 remote_server_backup_sync.py --remote_host 203.0.113.10 --remote_user admin --remote_path /data --local_path /home/user/remote_backup --backup_path /tmp --cert_path /home/user/.ssh/id_rsa
-
-To skip the MongoDB backup, add the `--nomongo` flag:
-
-```bash
+Command Example: ```bash
 python3 remote_server_backup_sync.py --remote_host 203.0.113.10 --remote_user admin --remote_path /data --local_path /home/user/remote_backup --backup_path /tmp --cert_path /home/user/.ssh/id_rsa --nomongo
 ```
+
+To skip the MongoDB backup, add the `--nomongo` flag
 
 ## Notes
 
